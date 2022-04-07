@@ -34,3 +34,10 @@ Horizontal Rules:
 print 'Hello World'
 print 'Yello World'
 ```
+
+Test 2:
+```
+# code block;
+print 'Friday or Monday'
+
+```
