@@ -7,6 +7,6 @@ Tutorial: Logging into a ieng6 course specific account
   1)First, click on this [link](https://code.visualstudio.com/)
   
   2)Download the stable version of whatever computer you have
-  ![visualStudios](Vs screenshot.PNG)
+  ![visualStudios](VS screenshot.PNG)
   
   3)Make sure to Follow the instructions
