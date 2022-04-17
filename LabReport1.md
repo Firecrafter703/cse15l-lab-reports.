@@ -26,7 +26,7 @@ Tutorial: Logging into a ieng6 course specific account
   When logging in for the first time, the terminal will mention a fingerprint.
   Say Yes
 
-  You should have the terminal ask for your passcode. Keep in mind that the CHARACTER SOF THE PASSCODE DOES NOT SHOW when you type stuff
+  You should have the terminal ask for your passcode. Keep in mind that the CHARACTERS OF THE PASSCODE DOES NOT SHOW when you type stuff
 
 If you got this, you are in
 
@@ -69,17 +69,17 @@ The command *scp* allows to copy one or many files from your computer to a remot
 
 However, IT CAN ONLY BE USED FROM YOUR COMPUTER/CLIENT. You cant use whe connected to a server like ieng6
 
-1) On your terminal, write ssh yourCode.java cs15lsp22(YourAccountCharacters):
+1) On your terminal, write scp yourCode.java cs15lsp22(YourAccountCharacters):
 
 ![Terminal](SCP.PNG)
 
-2) Write your passcode. If you use ls and you see your code, it is in the home directory and the ieng6 Server, and now can be run by anyone in the server via the Javac and java commands.
+2) Write your passcode to move your file. You can check if its there by logging into the server and running ls
 
 Significance: Allows to run code on a remote server
 
 ## __SSH Keys__
 
-In order to avoid writing passcode constantly every time when writing SSH, we can create public and private keys via a program called ssh-keygen
+In order to avoid writing passcode constantly every time when writing SSH, we can create  keys via a program called ssh-keygen
 
 1) On your client, type ssh-keygen on your terminal. If on windows, write ssh-keygen -t ed25519
 
@@ -87,7 +87,7 @@ In order to avoid writing passcode constantly every time when writing SSH, we ca
 
 2) When the terminal asks for a passphrase, dont put anything
 
-  When the terminal shows a randomart image, you are on the righ track
+  When the terminal shows a randomart image, you are on the right track
 
   A message from the terminal should state where your public key is saved in. Keep that in mind 
 
@@ -101,8 +101,15 @@ In order to avoid writing passcode constantly every time when writing SSH, we ca
 
    3)Log out and return to the client
 
-   4)Write scp (location wherePublicKeyisSavedin)/cs15lsp22(AccountCharacters)@ieng5.ucsed.edu:
+   4)Write scp (location wherePublicKeyisSavedin)/cs15lsp22(AccountCharacters)@ieng5.ucsed.edu:~/.ssh/authorized_keys
 
 
 ![Terminal](SSh.PNG)
 
+## __Optimizing Remote Running__
+
+The example at the bottom has me running the code on my local computer, scp it, then ssh it to confirm that is there. A total of 4 keystrokes.
+
+![Optimizing](ORR.PNG)
+
+Lab report summary done!
