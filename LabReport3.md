@@ -20,6 +20,14 @@ Me using git add and git commit.
 
 ![2c](Lab3Part2r.PNG)
 
+Private key of the screenshot
+
+![2d](PrivateKeyScreenshot.PNG)
+
+Key in GitHub
+
+![2e](KeyInGitHub.PNG)
+
 ## Copy whole directories with scp -r
 
 ![3a](Lab3Part3a.PNG)
