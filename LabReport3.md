@@ -38,4 +38,34 @@ Me running the command.
 
 ![3c](Lab3Part3c.PNG)
 
-Proof that the files are in there. I do not know how to run the tests however.
+Proof that the files are in there. 
+
+![3d](IENGTEST1.PNG)
+
+
+![3e](IENG2.PNG)
+
+Me running the tests on ieng6 server.
+
+
+![3f](OneCommand1.PNG)
+
+![3g](OneCommand2.PNG)
+
+![3h](OneCommand3.PNG)
+
+This is me running combining scp and ssh commands while also running the Junit Tests
+
+
+![4f](DirectoryCopy.PNG)
+
+This command copies the directory itself to the Ieng6 server.
+
+![4e](DirectoryCopy1.PNG)
+
+
+
+
+![5](DirectoryCopy2.PNG)
+
+This command does the same thing as the previous server, but more stuff is being copied, so its not as fast as the previous command.
