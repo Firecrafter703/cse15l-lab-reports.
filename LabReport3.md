@@ -28,6 +28,12 @@ Key in GitHub
 
 ![2e](KeyInGitHub.PNG)
 
+
+![2f](AttemptAtPush.PNG)
+
+This is my attempt at trying to push via server.
+
+
 ## Copy whole directories with scp -r
 
 ![3a](Lab3Part3a.PNG)
