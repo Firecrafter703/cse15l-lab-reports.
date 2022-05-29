@@ -3,11 +3,45 @@
 # MyCodeReview
 
 
-![ScreenshotofTests1](ORR.PNG)
+![ScreenshotofTests](MyReview.PNG)
 
+Test 1
+
+![Failure1](myCodeFailure1.PNG)
+
+What could have been done:
+
+Test 2
+
+![Failure2](myCodeFailure2.PNG)
+
+What could have been done:
+
+Test 3
+
+![Failure3](myCodeFailure3.PNG)
+
+What could have been done:
 
 # OtherCodeReview
 
-![ScreenshotofTests1](OtherPeopleReview.PNG)
+![ScreenshotofTests](OtherPeopleReview.PNG)
 
 
+Test 1
+
+![Failure1](otherCodeFailure1.PNG)
+
+What could have been done:
+
+Test 2
+
+![Failure2](OtherCodeFailure2.PNG)
+
+What could have been done:
+
+Test 3
+
+![Failure3](otherCodeFailure3.PNG)
+
+What could have been done:
